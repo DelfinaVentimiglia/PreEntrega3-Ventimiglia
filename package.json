@@ -1,0 +1,17 @@
+{
+  "name": "preentrega2-ventimiglia-master",
+  "version": "1.0.0",
+  "description": "PreEntrega2 Proyecto, entrega2: Intenté maquetar todo desde html con el uso de Bootstrap. Utilice fuentes de google, y utilice Owl Carousel, que me pareció bastante dinamico y minimalista para el estilo de la página que estoy haciendo. Espero que les guste!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
