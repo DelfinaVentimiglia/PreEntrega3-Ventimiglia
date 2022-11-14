@@ -210,3 +210,13 @@ a:link, a:visited {
   font-family: 'Open sans';
   margin-bottom: 3px;
 }
+.violeta{
+  background-color: #c9c4de;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  color:#5d596c;
+  font-family: 'Open sans';
+  margin-bottom: 3px;
+}
