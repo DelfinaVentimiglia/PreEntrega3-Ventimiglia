@@ -20,3 +20,26 @@ $border-color_2: #fff;
 card{
 	margin-top: 5cm;
 }
+
+
+@mixin colornav {
+	background-color: #c9c4de; 
+}
+
+$colors: (
+	"primary": #fff,
+	"secondary": #fff,
+	"background-color_1": #c9c4de,
+	"background-color_2": #504c62,
+	"border-color_1":#504c62,
+	"border-color_2":#fff,
+
+);
+
+@function color($search) {
+	@return map-get($colors, $search);
+  }
+  @each $key, $value in $colors {
+	.color-#{$key}{ color: #{$value}; }
+	.bg-#{$key}{ background-color: #{$value}; }
+  }
