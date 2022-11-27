@@ -220,3 +220,16 @@ a:link, a:visited {
   font-family: 'Open sans';
   margin-bottom: 3px;
 }
+
+.recursos{
+  background-color: #c9c4de;
+  background-size: cover;
+}
+
+.clientescontenedor{
+  background-color: #c9c4de;
+  background-size: cover;
+  margin-bottom: 1cm;
+  font-family: 'Calibri';
+  padding-bottom: 1cm;
+}
